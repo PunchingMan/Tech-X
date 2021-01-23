@@ -177,11 +177,11 @@ nav{
     max-width: 500px;
   }
 
- /* @media screen and (max-width: 900px) {
+  @media screen and (max-width: 900px) {
     .container{
       height: 100%;
     }
-  }*/
+  }
 
   .container h1
   {
@@ -306,14 +306,13 @@ nav{
       top: 45px;
     }
   }
-/*
+
   @media screen and (max-width: 768px) {
     .mentori{
       height: 60%;
       width: 90%;
     }
   }
-*/
 
 
   @media screen and (min-width: 1205px) {
@@ -351,7 +350,7 @@ nav{
   }
 
 }
-/*
+
 @media screen and (max-width: 1204px) {
 
   .membrii{
@@ -428,4 +427,3 @@ nav{
   }
   
 }
-*/
