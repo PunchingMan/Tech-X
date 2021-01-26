@@ -6,12 +6,6 @@ main {
     padding-right: 240px;
 }
 
-@media screen and (max-width: 400px){
-  body{
-    max-width: 370px;
-  }
-}
-
 *{
   margin: 0px;
   padding: 0px;
