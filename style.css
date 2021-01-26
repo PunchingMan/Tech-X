@@ -447,11 +447,11 @@ nav{
       .descriere{
         margin-top: 34px;
         padding-top: 30px;
-        height: 54%;
+        height: 540px;
        
       }
       .mentori{
-        height: 36%;
+        height: 42%;
       }
       .mentori h3{
         font-size: 1.35em;
@@ -460,13 +460,21 @@ nav{
       }
       .mentori h4{
         font-size: 1.3em;
-        top: 77%;
+        top: 75%;
         left: 18.3%;
       }
       .mentori h6{
         font-size: 1.3em;
-        top: 77%;
+        top: 75%;
         right: 20.5%;
+      }
+      .hotea img{
+        height: 43%;
+        top: 28%;
+      }
+      .director img{
+        height: 43%;
+        top: 28%;
       }
     }
 
