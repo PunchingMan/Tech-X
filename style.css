@@ -7,7 +7,7 @@ main {
 }
 
 @media screen and (max-width: 400px){
-  main{
+  body{
     max-width: 370px;
   }
 }
@@ -24,7 +24,7 @@ nav{
   align-items: center;
   min-height: 8vh;
   background: url(background_1.jpg) repeat 0 0;
-  box-shadow: 0px 0px 0px 1px black, 1px 1px 10px 0px black;
+  box-shadow: 0px 0px 0px 1px orange, 1px 1px 10px 0px orange;
   font-family: 'Press Start 2P', cursive;
   font-size: 14px;
 }
@@ -85,9 +85,7 @@ nav{
     transition: transform 0.5s ease-in;
     z-index:2;
   }
-  .nav-links li{
-    opacity: 0;
-  }
+ 
   .burger{
     display: block;
   }
@@ -118,7 +116,6 @@ nav{
     height: 65%;
     width: 80%;
     max-width: 1100px;
-    min-width: 500px;
     line-height: 60%;
     margin: auto;
     margin-top: 50px;
@@ -146,6 +143,7 @@ nav{
     }
   }
 
+
     .descriere {
       position: relative;
       width: 100%;
@@ -155,10 +153,11 @@ nav{
       justify-content: center;
       align-items: center;
       background: url(background_1.jpg) repeat 0 0;
+      box-shadow: 0px 0px 0px 1px orange, 1px 1px 30px 0px orange;
       color: #fff;
       opacity: 0;
       transition: 1s;
-      margin-bottom: 120px;
+      margin-bottom: 65px;
       transform-origin: left;
     }
 
@@ -178,9 +177,8 @@ nav{
         height: 52%;
       }
     }
+
    
-
-
   .container {
     max-width: 80%;
     max-width: 500px;
@@ -254,10 +252,11 @@ nav{
     box-shadow: 0px 0px 0px 1px black, 1px 1px 30px 0px black;
   }
 
-  h3{
+  .mentori h3{
     position: absolute;
     top: 37px;
     left: 33%;
+    font-size: 2em;
     font-family: 'Press Start 2P', cursive;
     background-color: #ff9900;
     border: 3px solid rgb(100, 100, 100);
@@ -289,20 +288,23 @@ nav{
     box-shadow: 0px 0px 0px 1px black, 1px 1px 10px 0px black;
   }
 
-  h4{
+  .mentori h4{
     position: absolute;
     bottom: 12%;
+    font-size: 26px;
     left: 21%;
     text-align: center;
     font-family: 'Teko', sans-serif;
   }
-  h6{
+  .mentori h6{
     position: absolute;
     bottom: 12%;
+    font-size: 25px;
     right: 24%;
     text-align: center;
     font-family: 'Teko', sans-serif;
   }
+  
 
   @media screen and (max-width: 1200px) {
     .mentori{
@@ -310,7 +312,7 @@ nav{
       width: 90%;
       left: 5%;
     }
-    h3{
+    .mentori h3{
       left: 35%;
       top: 45px;
     }
@@ -336,7 +338,7 @@ nav{
     box-shadow: 0px 0px 0px 1px black, 1px 1px 30px 0px black;
   }
 
-  h2{
+  .memb{
     position: absolute;
     top: 37px;
     left: 36%;
@@ -373,7 +375,7 @@ nav{
     box-shadow: 0px 0px 0px 1px black, 1px 1px 30px 0px black;
   }
 
-  h2{
+  .memb{
     position: absolute;
     font-size: 1em;
     top: 46px;
@@ -412,7 +414,7 @@ nav{
     box-shadow: 0px 0px 0px 1px black, 1px 1px 30px 0px black;
   }
 
-  h2{
+  .memb{
     position: absolute;
     font-size: 1em;
     top: 37px;
@@ -436,3 +438,183 @@ nav{
   }
   
 }
+ @media screen and (max-width: 500px) {
+      
+    .slider{
+        height: 26%;
+        width: 92%;
+      }
+      .descriere{
+        margin-top: 34px;
+        padding-top: 30px;
+        height: 54%;
+       
+      }
+      .mentori{
+        height: 36%;
+      }
+      .mentori h3{
+        font-size: 1.35em;
+        top: 5%;
+        left: 30%;
+      }
+      .mentori h4{
+        font-size: 1.3em;
+        top: 77%;
+        left: 18.3%;
+      }
+      .mentori h6{
+        font-size: 1.3em;
+        top: 77%;
+        right: 20.5%;
+      }
+    }
+
+    @media screen and (max-width: 450px) {
+      .mentori{
+        height: 34%;
+      }
+      .mentori h3{
+        font-size: 1.25em;
+        top: 5%;
+        left: 30%;
+      }
+    }
+.links {
+  position: relative;
+  top: 13%;
+  width: 100%;
+  height: 70vh;
+  text-align: justify;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(background_1.jpg) repeat 0 0;
+  box-shadow: 0px 0px 0px 1px orange, 1px 1px 30px 0px orange;
+  color: #fff;
+  opacity: 0;
+  transition: 1s;
+  margin-bottom: 120px;
+  transform-origin: left;
+}
+
+.links[data-scroll="in"]{
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+@media screen and (max-width: 1024px) {
+  .links{
+    padding-top: 42px;
+    height: 30%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .links{
+    padding-top: 14px;
+    height: 52%;
+  }
+}
+
+.contact{
+  position: absolute;
+  top: 6%; 
+  left: 20%;
+  width: 50%;
+  font-size: 1.3em;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+}
+
+.facebook{
+  position: absolute;
+  top: 21%;
+  left: 27.5%;
+}
+.insta{
+  position: absolute;
+  top: 21%;
+  left: 46%;
+}
+.twitter{
+  position: absolute;
+  top: 21%;
+  right: 30%;
+}
+
+.mail{
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  bottom: 0px;
+  left: 0px;
+  box-shadow: 0px 0px 0px 1px orange, 1px 1px 15px 0px orange;
+}
+.mail h1{
+  position: absolute;
+  font-size: 2.5em;
+  top: 17%; 
+  left: 44%;
+  width: 45%;
+  font-size: 1.2em;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+}
+
+.mail a{
+  text-decoration: none;
+  position: absolute;
+  width: 40%;
+  font-family: 'Press Start 2P', cursive;
+    background-color: #ff9900;
+    border: 3px solid rgb(100, 100, 100);
+    color: rgb(82, 82, 82);
+    border-radius: 10px;
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+  top: 45%;
+  left: 32%;
+}
+
+.mail a:hover{
+  color: rgb(206, 206, 206);
+}
+
+
+.locatie{
+  position: absolute;
+  width: 60%;
+  height: 50%;
+  bottom: 0px;
+  right: 0px;
+  box-shadow: 0px 0px 0px 1px orange, 1px 1px 15px 0px orange;
+}
+.loc{
+  position: absolute;
+  font-size: 2.5em;
+  top: 17%; 
+  left: 13%;
+  width: 45%;
+  font-size: 1.2em;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+}
+
+.loc2{
+  position: absolute;
+  font-size: 0.7em;
+  top: 50%; 
+  left: 6%;
+  width: 35%;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+}
+
+.harta{
+  position: absolute;
+  right: 13%;
+  bottom: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 1px rgb(179, 179, 179), 1px 1px 15px 0px rgb(179, 179, 179);
+}
+
